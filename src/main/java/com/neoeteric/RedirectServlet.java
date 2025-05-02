@@ -7,7 +7,6 @@ import java.io.IOException;
 public class RedirectServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws  IOException {
-        // Redirects to Google
         response.sendRedirect("https://www.google.com");
     }
 }
